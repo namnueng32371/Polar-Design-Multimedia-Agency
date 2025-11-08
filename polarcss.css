@@ -1,0 +1,406 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+body{
+   background-size:cover;
+   width: 100%;
+}
+html,body{
+   overflow-x: hidden;
+}
+.header{
+   background-color: rgb(255, 255, 255);
+   z-index: 1;
+   width: 100%;
+   height: 6vw;
+   display: flex;
+}
+.sticky {
+   position: fixed;
+   width: 100%;
+ }
+ .sticky + .content {
+   padding-top: 7vw;
+ }
+.navbar{
+   width: 80%;
+   display: flex;
+   align-items: center;
+   border-bottom: black;
+   z-index: 1;
+   justify-content: flex-end;
+}
+.logo{
+   width: 20%;
+}
+.logo img{
+   margin-top: 0.5vw;
+   margin-left: 3vw;
+   width: 30%;
+   cursor: pointer;
+   z-index: 500;
+}
+nav{
+   list-style: none;
+}
+nav ul{
+   display: flex;
+   justify-content: flex-end;
+
+}
+nav ul li{
+   list-style: none;
+   display: inline-block;
+   margin-left: 3vw;
+   margin-right: 3vw;
+
+}
+nav ul li a{
+   text-decoration: none;
+   color: #18224c;
+   font-size: 1.5vw;
+   font-weight: 800;
+   font-family: 'IBM Plex Sans Thai', sans-serif;
+   text-transform: uppercase;
+   transition: 0.5s ease;
+
+}
+nav ul li a:hover{
+   text-decoration: none;
+   color: #dc4f4c;
+}
+
+/******mainหน้าหลัก******/
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "box1 box2 ";
+    width: 90%;
+    margin: auto;
+ }
+ .box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.flexbox1{
+    z-index: -1;
+    width: 36.5vw;
+    height: 28vw;
+    box-shadow: 1.6vw 1.6vw 4vw rgba(0,0,0,0.5);
+    border-radius: 20%;
+    background: rgba(255,255, 255, 0.1);
+    overflow: hidden;
+    backdrop-filter: blur(5px); 
+    padding-bottom: 2.5vw;
+    margin-top: 3vw;
+   }
+.flexbox1 h1{
+    padding-left: 9%;
+    padding-top: 5%;
+    font-size: 4vw;
+    color: #fff;
+    letter-spacing: 0.32vw;
+   
+ }
+.flexbox1 h2{
+    padding-left: 9%;
+    width: 100%;
+    font-size: 2.2vw;
+    font-weight: 400;
+    letter-spacing: 0.2vw;
+    color: #fff;
+    line-height: 5vw;
+ }
+.flexbox1 h4 {
+    padding-left: 9%;
+    padding-right: 5%;
+    font-size:1.4vw;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align:justify;
+ }
+ .box2{
+   padding-top: 2vw;
+   display: flex;
+   justify-content:flex-start;
+ }  
+.box2 img{
+   width: 90%;
+   object-fit: cover;
+}
+/***************บริการของพวกเรา***************/
+.บริการ h1{
+    margin-top: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 5vw;
+    letter-spacing: 1px;
+
+}
+.บริการ a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.875vw;
+    letter-spacing: 1px;
+}
+/**************บริการ**************/
+.service{
+    display: grid;
+    height: 38vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "column1 column2 column3 ";
+    margin: auto;
+ }
+ /*****Graphic Design*****/
+.colume1{
+   margin-top: 4vw;
+   display: flex;
+   justify-content: flex-end;
+}
+ .small{
+    display: flex;
+    justify-content: center;
+    padding-top: 2vw;
+    width: 25vw;
+    height: 30vw;
+    box-shadow: 1.6vw 1.6vw 4vw rgba(0,0,0,0.5);
+    border-radius: 20%;
+    background: rgba(255,255, 255, 0.1);
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+    }
+.small ul li{
+      font-size: 1.875vw;
+      list-style: none;
+      text-align: center;
+      line-height: 3.5vw;
+      font-weight: 300;
+ 
+      }
+.line{
+   background-color: #fff;
+   width: 20vw;
+   height: 0.6vw;
+   border-radius: 20vw ;
+   margin-bottom: 2.2vw;
+   margin-top: 2.2vw;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+
+} 
+/*****Motion Graphic Design*****/
+.colume2{
+   margin-top: 4vw;
+   display: flex;
+   justify-content: center;
+}
+   /********Photography********/
+.colume3{
+    margin-top: 4vw;
+    display: flex;
+    justify-content: flex-start;
+}     
+/*ปุ่มกด1*/
+.wrapper{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 100;
+   height: 5vw;
+}
+.botton{
+   background-color: #fff;
+   color: #18224c;
+   font-size: 2.34vw;
+   font-weight: 700;
+   width: 23.43vw;
+   height: 4.7vw;
+   border: 1px solid #fff;
+   border-radius: 60px;
+   text-align: center;
+   transition: 0.2s;
+   padding-top: 0.4vw;
+}
+.botton:hover{
+    color: #ffffff;
+    background-color:#18224c;
+    border: #18224c;
+}
+
+/*     ผลงานของเรา      */
+.work{
+   text-align: center;
+   margin-top: 12%;
+   font-size: 5vw;
+   font-weight: 800;
+   margin-right: 2%;
+   padding-bottom:4%;
+}
+.columeall{
+   display: flex;
+   justify-content:space-around;
+   height:36vw;
+   text-align: center;
+   font-size: 30px;
+   font-weight: 400;
+   font-size: 1.8vw;
+   width: 100%;
+   margin-bottom: 2vw;
+}
+.columepackaging img{
+   width: 22.4vw;
+   height: 31vw;
+   transform-origin: center top;
+   transition:  1s ease-out;
+}
+.columepackaging img:hover{
+   transform: scale(1.05,1.05);
+   transform-origin: center top;
+}
+.columemagzine img{
+   width: 22.4vw;
+   height: 31vw;
+   transform-origin: center top;
+   transition: 1s ease-out;
+}
+.columemagzine img:hover{
+   transform: scale(1.05,1.05);
+   transform-origin: center top;
+}
+.columemotion video{
+   margin-top: 0.8vw;
+   width: 20vw;
+   object-fit: cover;
+   height: 28.4vw;
+   border-radius: 3vw;
+}
+.columemotion h5{
+   padding-top: 2vw;
+   font-weight: 300;
+   font-size: 1.75vw;
+}
+.columemotion img:hover{
+   transform: scale(1.05,1.05);
+   transform-origin: center top;
+}
+.columephoto img{
+   width: 22.4vw;
+   height: 31vw;
+   transform-origin: center top;
+   transition: 1s ease-out;
+}
+.columephoto img:hover{
+   transform: scale(1.05,1.05);
+   transform-origin: center top;
+}
+
+
+/*      ปุ่มดูผลงานทั้งหมด      */
+.wrapper2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.botton1{
+   background-color: #fff;
+   color: #18224c;
+   font-size: 2.34vw;
+   font-weight: 700;
+   width: 23.43vw;
+   height: 4.7vw;
+   border: 1px solid #fff;
+   border-radius: 60px;
+   text-align: center;
+   transition: 0.2s;
+   padding-top: 0.4vw;
+}
+.botton1:hover{
+    color: #ffffff;
+    background-color:#18224c;
+    border: #18224c;
+}
+/*ourteam*/
+.ourteam{
+   width: 100%;
+   justify-content: center;
+   display: flex;
+   position: relative;
+}
+.line01{
+   width: 30vw;
+   height: 6vw;
+   left: 0vw;
+   top: 21vw;
+   border-top-right-radius: 5vw;
+   border-bottom-right-radius: 5vw;
+   background: white;
+   position: absolute;
+   z-index: 1;
+}
+.line02{
+   width: 30vw;
+   height: 6vw;
+   top: 21vw;
+   right: 0vw;
+   border-top-left-radius: 5vw;
+   border-bottom-left-radius: 5vw;
+   background: white;
+   position: absolute;
+   z-index: 1;
+}
+.boxour{
+   margin-top: 8vw;
+   width: 88vw;
+   height: 30vw;
+   border-top-left-radius: 60px;
+   border-top-right-radius: 60px;
+   background: rgba(255,255, 255, 0.1);
+   overflow: hidden;
+   backdrop-filter: blur(5px);
+ }
+.ข้อความ{
+    padding-top: 8.3vw;
+    padding-bottom: 2vw;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 600;
+}
+.wrapper3{
+   padding-top: 1.25vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.botton2{
+   background-color: #fff;
+   color: #18224c;
+   font-size: 2.34vw;
+   font-weight: 700;
+   width: 23.43vw;
+   height: 4.7vw;
+   border: 1px solid #fff;
+   border-radius: 60px;
+   text-align: center;
+   transition: 0.2s;
+   padding-top: 0.4vw;
+}
+.botton2:hover{
+    color: #ffffff;
+    background-color:#18224c;
+    border: #18224c;
+}

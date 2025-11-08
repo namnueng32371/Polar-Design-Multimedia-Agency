@@ -1,0 +1,101 @@
+footer{
+    height: 15vw;
+    width:100%;
+    display: flex;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    background-color: #ffffff;
+}
+.logos{
+    width: 18vw;
+}
+.logos img{
+    width: 50%;
+    padding-top: 4vw;
+    margin-left: 4vw;
+}
+.rowfooter{
+    width: 35vw;
+}
+.footcolumn4{
+    display: block;
+    object-fit: cover;
+    padding-left: 1.04vw;
+    padding-top: 3vw;
+    width: 9vw;
+}
+.rowfooter b{
+    padding-top: 2vw;
+    padding-left: 2.3vw;
+    float: left;
+    color: #18224c;
+    font-size: 1.5vw;
+    line-height:2 vw;
+
+}
+.rowfooter a{
+    padding-top: 1.04vw;
+    padding-left: 2.3vw;
+    float: left;
+    color: #18224c;
+    font-size: 1.5vw;
+    line-height: 2.3vw;
+}
+.rowfooter b{
+    color: #18224c; 
+}
+.footcolumn5{
+    text-align: center;
+    padding-top: 1.7vw;
+    width: 20vw;
+    line-height: 3vw;
+}
+.footcolumn5 li{
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+.footcolumn5 li a{
+    color: #18224c;
+    text-decoration: none;
+    font-weight: 500;
+    width: 20vw;
+}
+.footcolumn6{
+    text-align: right;
+    color: #18224c;
+    width: 35%;
+    padding-top: 3vw;
+    padding-right: 2vw;
+
+}
+.footcolumn6 a{
+    object-fit: cover;
+    display: inline-block;
+    height: 3vw;
+    width: 3vw;
+    background-color: #18224c;
+    text-align: center;
+    line-height: 3.2vw;
+    border-radius: 50%;
+    color: #8e8e8e ;
+    transition: all 0.5s ease;
+    font-size: 1.7vw;
+    justify-content: center;
+    margin-right: 2.5vw;
+}
+.footcolumn6 h4{
+    text-align: end;
+    color: #18224c;
+    letter-spacing: 0.1vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin-right: 2.5vw;
+}
+.text1 h4{
+    line-height: 2vw;
+    padding-top: 0.5vw;
+}
+.footcolumn6 a:hover{
+    object-fit: cover;
+    background:  #8e8e8e
+}
+

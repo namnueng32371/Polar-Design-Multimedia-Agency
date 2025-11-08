@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;400;500;600;700&family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Polar Design</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <style>
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+body{
+   background-size:cover;
+   width: 100%;
+}
+html,body{
+   overflow-x: hidden;
+}
+.header{
+   background-color: rgb(255, 255, 255);
+   z-index: 1;
+   width: 100%;
+   height: 6vw;
+   display: flex;
+}
+.sticky {
+   position: fixed;
+   width: 100%;
+ }
+ .sticky + .content {
+   padding-top: 7vw;
+ }
+.navbar{
+   width: 80%;
+   display: flex;
+   align-items: center;
+   border-bottom: black;
+   z-index: 1;
+   justify-content: flex-end;
+}
+.logo{
+   width: 20%;
+}
+.logo img{
+   margin-top: 0.5vw;
+   margin-left: 3vw;
+   width: 30%;
+   cursor: pointer;
+   z-index: 500;
+}
+nav{
+   list-style: none;
+}
+nav ul{
+   display: flex;
+   justify-content: flex-end;
+
+}
+nav ul li{
+   list-style: none;
+   display: inline-block;
+   margin-left: 3vw;
+   margin-right: 3vw;
+
+}
+nav ul li a{
+   text-decoration: none;
+   color: #18224c;
+   font-size: 1.5vw;
+   font-weight: 800;
+   font-family: 'IBM Plex Sans Thai', sans-serif;
+   text-transform: uppercase;
+   transition: 0.5s ease;
+
+}
+nav ul li a:hover{
+   text-decoration: none;
+   color: #dc4f4c;
+}
+
+/******footer******/
+footer{
+    height: 15vw;
+    width:100%;
+    display: flex;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    background-color: #ffffff;
+}
+.rowfooter{
+    width: 35vw;
+}
+.footcolumn4{
+    display: block;
+    object-fit: cover;
+    padding-left: 1.04vw;
+    padding-top: 3vw;
+    width: 9vw;
+}
+.rowfooter b{
+    padding-top: 2vw;
+    padding-left: 2.3vw;
+    float: left;
+    color: #18224c;
+    font-size: 1.5vw;
+    line-height:2 vw;
+}
+.rowfooter a{
+    padding-top: 1.04vw;
+    padding-left: 2.3vw;
+    float: left;
+    color: #18224c;
+    font-size: 1.5vw;
+    line-height: 2.3vw;
+}
+.rowfooter b{
+    color: #18224c; 
+}
+.footcolumn5{
+    text-align: center;
+    padding-top: 1.7vw;
+    width: 20vw;
+    line-height: 3vw;
+}
+.footcolumn5 li{
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+.footcolumn5 li a{
+    color: #18224c;
+    text-decoration: none;
+    font-weight: 500;
+    width: 20vw;
+}
+.footcolumn6{
+    text-align: right;
+    color: #18224c;
+    width: 35%;
+    padding-top: 3vw;
+}
+.footcolumn6 a{
+    object-fit: cover;
+    display: inline-block;
+    height: 3vw;
+    width: 3vw;
+    background-color: #18224c;
+    text-align: center;
+    line-height: 3.2vw;
+    border-radius: 50%;
+    color: #8e8e8e ;
+    transition: all 0.5s ease;
+    font-size: 1.7vw;
+    justify-content: center;
+    margin-right: 2vw;
+}
+.footcolumn6 h4{
+    text-align: end;
+    color: #18224c;
+    letter-spacing: 0.1vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin-right: 2.5vw;
+}
+.text1 h4{
+    line-height: 2vw;
+    padding-top: 0.5vw;
+}
+.footcolumn6 a:hover{
+    object-fit: cover;
+    background:  #8e8e8e
+}
+.team{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-gap: 3.25vw;
+    text-align: center;
+
+}
+.team-img{
+    width: 35.8vw;
+    height: 42.9vw;
+
+}
+
+    </style>
+</head>
+<body background="bg5.jpg">
+    <!-----Navbar------->
+    <section class="header"id="header">
+        <div class="logo">
+            <a href="polar.html">
+            <img src="โลโก้.png" >
+            </a> </div>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="polar.html">หน้าหลัก</a></li>
+                    <li><a href="service.html">บริการ</a></li>
+                    <li><a href="ผลงานของเรา.html">ผลงานของเรา</a></li>
+                    <li><a href="หน้า4.html">ทีมงาน</a></li>
+                </ul>
+            </nav>
+        </div>
+        </section>
+
+        <script>
+                window.onscroll = function() {myFunction()};
+                
+                var header = document.getElementById("header");
+                var sticky = header.offsetTop;
+                
+                function myFunction() {
+                  if (window.pageYOffset > sticky) {
+                    header.classList.add("sticky");
+                  } else {
+                    header.classList.remove("sticky");
+                  }
+                }
+                </script>
+    
+        <!----------main----------->
+        <center><h1 style="font-size: 5.5vw; margin: 4vw;">ทีมงานของพวกเรา</h1></center>
+       <center><div class="team">
+  
+            <div class="team-1">
+                <img class="team-img" src="บูม.png" >
+
+            </div>
+            <div class="team-1">
+                <img class="team-img" src="ฝัน.png" >
+
+            </div>
+            <div class="team-1">
+                <img class="team-img" src="ฝ้าย.png" >
+
+            </div>
+            <div class="team-1">
+                <img class="team-img" src="ครีม.png" >
+
+            </div>
+            <div class="team-1">
+                <img class="team-img" src="เก้า.png" >
+
+            </div>
+            <div class="team-1">
+                <img class="team-img" src="เจ๋ง.png" >
+
+            </div>
+            <div class="team-1">
+                <img class="team-img" src="ลีโอ.png" >
+
+            </div>
+            <div class="team-1">
+                <img class="team-img" src="กิ่งไผ่.png" >
+       
+            </div>
+            <div class="team-1">
+                <img class="team-img" src="มาร์ค.png" >
+            </div>
+            <div class="team-1">
+                <img class="team-img" src="น้ำพุ.png" >
+            </div>
+        </div></center>
+       
+        <!--footer-->
+        <footer class="footer">
+            <a href="#">
+                <img src="โลโก้.png" class="footcolumn4">
+              </a>
+              <div class="rowfooter">
+                <b>Polar Design "Multimedia Design Agency"</b>
+                
+                <a>126 ถนนประชาอุทิศ แขวง บางมด เขต ทุ่งครุ
+                <br>กรุงเทพมหานคร 10140<a>
+              </div>
+              <div class="footcolumn5">
+                <li><a href="polar.html">หน้าหลัก</a></li>
+                <li><a href="service.html">บริการ</a></li>
+                <li><a href="ผลงานของเรา.html">ผลงานของเรา</a></li>
+                <li><a href="หน้า4.html">ทีมงาน</a></li>
+              </div>
+        
+    
+              <div class="footcolumn6">
+               <a href="https://web.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+               <a href="https://twitter.com/home?lang=th"><i class="fab fa-twitter"></i></i></i></a>
+               <div class="text1">
+                <h4>polar.des@gmail.com<h4> 
+                <h4> Tel.(66+) 098-765-4321<h4>
+               </div>
+               </div>
+               
+          
+        
+        </footer>
+
+        
+</body>
+</html>

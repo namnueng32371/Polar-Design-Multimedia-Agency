@@ -1,0 +1,433 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+body{
+   background-size:cover;
+   width: 100%;
+}
+html,body{
+   overflow-x: hidden;
+}
+.header{
+   background-color: rgb(255, 255, 255);
+   z-index: 1;
+   width: 100%;
+   height: 6vw;
+   display: flex;
+}
+.sticky {
+   position: fixed;
+   width: 100%;
+ }
+ .sticky + .content {
+   padding-top: 7vw;
+ }
+.navbar{
+   width: 80%;
+   display: flex;
+   align-items: center;
+   border-bottom: black;
+   z-index: 1;
+   justify-content: flex-end;
+}
+.logo{
+   width: 20%;
+}
+.logo img{
+   margin-top: 0.5vw;
+   margin-left: 3vw;
+   width: 30%;
+   cursor: pointer;
+   z-index: 500;
+}
+nav{
+   list-style: none;
+}
+nav ul{
+   display: flex;
+   justify-content: flex-end;
+
+}
+nav ul li{
+   list-style: none;
+   display: inline-block;
+   margin-left: 3vw;
+   margin-right: 3vw;
+
+}
+nav ul li a{
+   text-decoration: none;
+   color: #18224c;
+   font-size: 1.5vw;
+   font-weight: 800;
+   font-family: 'IBM Plex Sans Thai', sans-serif;
+   text-transform: uppercase;
+   transition: 0.5s ease;
+
+}
+nav ul li a:hover{
+   text-decoration: none;
+   color: #dc4f4c;
+}
+
+
+/*video*/
+.vide{
+    width: 120vw;
+    height: 50vw;
+}
+.vide video{
+    position: relative;
+    width: 100vw;
+    object-fit: cover;
+    height: 50vw;
+}
+.ผลงานของพวกเรา h1{
+    text-align: center;
+    color: #18224c;
+    font-size: 5vw;
+    padding-top: 3vw;
+}
+.ผลงานของพวกเรา {
+    text-align: center;
+    color: #18224c;
+    font-size: 2.5vw;
+    font-weight: 300;
+    background-color:#ffffff;
+    padding-bottom: 4vw;
+}
+
+/*background*/
+.pho{
+    padding-top: 6vw;
+    font-size: 7vw;
+    font-weight: 600;
+    padding-left: 3vw;
+    position: absolute;
+}
+.line1{
+    background-color: #ffffff;
+    width: 60vw;
+    height:  0.78125vw;
+    position:relative ;
+    top:-7.4vw;
+    left: 41vw;
+}
+.เทนนิส{
+    position: absolute;
+}
+.เทนนิส img{
+    position: relative;
+    width: 45%;
+    top:18vw;
+    left: 2.5vw;
+}
+.ยาหยดเขียว{
+    position: absolute;
+}
+.ยาหยดเขียว img{
+    position: relative;
+    width: 64%;
+    height: 40%;
+    top:60.5vw;
+    left: 2.5vw;
+}
+.ขวดสีเขียว{
+    position: absolute;
+}
+.ขวดสีเขียว img{
+    position: relative;
+    width: 21%;
+    top:18.2vw;
+    left: 45vw;
+}
+.ชามน้ำผัก{
+    position: absolute;
+}
+.ชามน้ำผัก img{
+    position: relative;
+    width: 21%;
+    top:41.5vw;
+    left: 45vw;
+}
+.photo{
+    width: 100%;
+    height: 115vw;
+}
+.ยาหม่อง{
+    position: absolute;
+}
+.ยาหม่อง img{
+    position: relative;
+    width: 34%;
+    top:18vw;
+    left: 64vw;
+}
+.ส้ม{
+    position: absolute;
+}
+.ส้ม img{
+    position: relative;
+    width: 34%;
+    top:57vw;
+    left: 64vw;
+}
+.motion{
+    position: relative;
+    top: 82vw;
+    left: 68vw;
+    font-size: 7vw;
+    font-weight: 600;
+    line-height: 10vw;
+    padding-top: 1vw;
+}
+.line2{
+    background-color: #ffffff;
+    width: 72vw;
+    height:  0.78125vw;
+    position:relative ;
+    top:78.25vw;
+    left: 0;
+}
+/*motion graphic*/
+.Motion{
+    width: 100%;
+    height: 58vw;
+}
+.v1{
+    position: absolute;
+}
+.v1 video{
+    position: relative;
+    width: 41vw;
+    height: 52vw;
+    border-radius: 2vw;
+    object-fit: cover;
+    left: 3.5vw;
+}
+.v2{
+    position: absolute;
+}
+
+.v2 video{
+    width: 50vw;
+    height: 25vw;
+    position: relative;
+    left: 46vw;
+    top:0;
+    border-radius: 2vw;
+    object-fit: cover;
+}
+.v3{
+    position: absolute;
+}
+.v3 video{
+    width: 50vw;
+    height: 26vw;
+    position: relative;
+    left: 46vw;
+    top:26vw;
+    border-radius: 2vw;
+    object-fit: cover;
+}
+.gra{
+    font-size: 7vw;
+    font-weight: 600;
+    padding-left: 3.5vw;
+    position: absolute;
+}
+.l1{
+    background-color: #ffffff;
+    width: 72vw;
+    height:  0.78125vw;
+    position:relative ;
+    left: 48vw;
+    top: -4.53vw;
+}
+/*Graphic design*/
+.Graphi{
+    width: 100% ;
+    height: 130vw;
+}
+.a1{
+    position: absolute;
+}
+.a1 img{
+    width: 34vw;
+    height:35vw;
+    top: 12vw;
+    left: 3vw;
+    position: relative;
+}
+.a2{
+    position: absolute;
+}
+.a2 img{
+    width: 34vw;
+    height:40vw;
+    top: 45vw;
+    left: 3vw;
+    position: relative;
+}
+.a3{
+    position: absolute;
+}
+.a3 img{
+    width: 62vw;
+    height:45vw;
+    top: 12vw;
+    left: 35vw;
+    position: relative;
+}
+.a4{
+    position: absolute;
+}
+.a4 img{
+    width: 30vw;
+    height:30vw;
+    top: 55vw;
+    left: 35.2vw;
+    position: relative;
+}
+.a5{
+    position: absolute;
+}
+.a5 img{
+    width: 33vw;
+    height:36vw;
+    top: 55vw;
+    left: 64vw;
+    position: relative;
+}
+.a6{
+    position: absolute;
+}
+.a6 img{
+    width: 62.5vw;
+    height:45vw;
+    left: 3vw;
+    top:83vw;
+    position: relative;
+}
+.a7{
+    position: absolute;
+}
+.a7 img{
+    width: 32vw;
+    height:38.5vw;
+    left: 64.5vw;
+    top:89.5vw;
+    position: relative;
+}
+
+
+
+
+
+footer{
+    height: 15vw;
+    width:100%;
+    display: flex;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    background-color: #ffffff;
+}
+.logos{
+    width: 18vw;
+}
+.logos img{
+    width: 50%;
+    padding-top: 4vw;
+    margin-left: 4vw;
+}
+.rowfooter{
+    width: 35vw;
+}
+.footcolumn4{
+    display: block;
+    object-fit: cover;
+    padding-left: 1.04vw;
+    padding-top: 3vw;
+    width: 9vw;
+}
+.rowfooter b{
+    padding-top: 2vw;
+    padding-left: 2.3vw;
+    float: left;
+    color: #18224c;
+    font-size: 1.5vw;
+    line-height:2 vw;
+
+}
+.rowfooter a{
+    padding-top: 1.04vw;
+    padding-left: 2.3vw;
+    float: left;
+    color: #18224c;
+    font-size: 1.5vw;
+    line-height: 2.3vw;
+}
+.rowfooter b{
+    color: #18224c; 
+}
+.footcolumn5{
+    text-align: center;
+    padding-top: 1.7vw;
+    width: 20vw;
+    line-height: 3vw;
+}
+.footcolumn5 li{
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+.footcolumn5 li a{
+    color: #18224c;
+    text-decoration: none;
+    font-weight: 500;
+    width: 20vw;
+}
+.footcolumn6{
+    text-align: right;
+    color: #18224c;
+    width: 35%;
+    padding-top: 3vw;
+    padding-right: 2vw;
+
+}
+.footcolumn6 a{
+    object-fit: cover;
+    display: inline-block;
+    height: 3vw;
+    width: 3vw;
+    background-color: #18224c;
+    text-align: center;
+    line-height: 3.2vw;
+    border-radius: 50%;
+    color: #8e8e8e ;
+    transition: all 0.5s ease;
+    font-size: 1.7vw;
+    justify-content: center;
+    margin-right: 2.5vw;
+}
+.footcolumn6 h4{
+    text-align: end;
+    color: #18224c;
+    letter-spacing: 0.1vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin-right: 2.5vw;
+}
+.text1 h4{
+    line-height: 2vw;
+    padding-top: 0.5vw;
+}
+.footcolumn6 a:hover{
+    object-fit: cover;
+    background:  #8e8e8e
+}
+
